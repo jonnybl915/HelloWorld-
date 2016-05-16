@@ -8,6 +8,4 @@ public class Novel {
     boolean isCaptivating;
     int numberOfPages;
     boolean haveRead;
-    String
-
 }
