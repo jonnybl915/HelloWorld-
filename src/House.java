@@ -6,6 +6,4 @@ public class House {
     String streetName;
     int streetNumber;
     boolean isSingleHouse;
-
-
 }
