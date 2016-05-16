@@ -6,6 +6,8 @@ public class Novel {
     String author;
     String genre;
     boolean isCaptivating;
-
+    int numberOfPages;
+    boolean haveRead;
+    String
 
 }
