@@ -4,7 +4,8 @@
 public class House {
     int age;
     String streetName;
-    double streetNumber;
+    int streetNumber;
     boolean isSingleHouse;
+
 
 }
