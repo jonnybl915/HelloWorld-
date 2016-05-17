@@ -6,12 +6,20 @@ public class House {
     String streetName;
     int streetNumber;
     boolean isSingleHouse;
+    int numberOfPorches;
 
-    public House (int age, String streetName, int streetNumber, boolean isSingleHouse){ //distinction b/t string as words and as a variable?
+    public House (int age, String streetName, int streetNumber, boolean isSingleHouse, int numberOfPorches){ //distinction b/t string as words and as a variable?
         this.age = age;
         this.streetName = streetName;
         this.streetNumber = streetNumber;
         this.isSingleHouse = isSingleHouse;
+        this.numberOfPorches = numberOfPorches;
+    }
+    public int getNumberOfPorches(){
+        return numberOfPorches;
+    }
+    public void setNumberOfPorches(int setNumberOfPorches){
+        this.numberOfPorches = setNumberOfPorches;
     }
     public int getAge(){
         return age;
@@ -26,9 +34,8 @@ public class House {
         this.streetName = streetName;
     }
     public void setIsSingleHouse(boolean isSingleHouse){
-        if (age >100);
+        if (numberOfPorches > 1);
         this.isSingleHouse = isSingleHouse;
-
     }
     public boolean getIsSingleHouse(){
         return isSingleHouse;

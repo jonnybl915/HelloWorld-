@@ -26,7 +26,7 @@ public class Coffee {
         return isTasty;
     }
     public void setName(String setName){
-        if(name.endsWith("Ice"))
+        if(name.endsWith("Mice"))
         this.name = setName;
     }
     public String getName(){
@@ -42,6 +42,8 @@ public class Coffee {
  /* public void setName(String newName) {;
         if (isValidName(newName)) {
             name = newName;
+
+    //alice.getName() //we cant stop here, we need to deposit "allice.getname();" into a String
+    String name = alice.getName(); //should output "Alice" when we type name?
+// same as String name = alice.name; not necessarily better
 */
-
-
