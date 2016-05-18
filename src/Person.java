@@ -2,11 +2,16 @@
  * Created by jonathandavidblack on 5/16/16.
  */
 public class Person {
-    static int familySize = (10);
+    static final int familySize = (10); //final means you CANNOT change family size
     String name;
     int age;
     boolean isAlive;
     Person[] family = new Person[familySize];
+
+    public Person(){  //an example of the empty constructor that java provides when we don't have one
+
+
+    }
 
     //typically the constructor is housed under this and above the rest
     public Person(String name, int age, boolean isAlive) {

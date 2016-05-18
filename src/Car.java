@@ -23,7 +23,7 @@ public class Car {
         return model;
     }
     public void setModel(String setModel){
-        this.model = setModel;
+        this.model = setModel; //the this.model operation signifies that this is the one inside the class
     }
     public int getYear(){
         return year;
