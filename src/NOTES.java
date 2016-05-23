@@ -1,7 +1,7 @@
 /**
  * Created by jonathandavidblack on 5/18/16.
  */
-public class NOTES {
+/*public class NOTES {
 }
     Person alice = new Person("Alice", 30, true);
 /*alice.name = "Alice";
@@ -12,7 +12,7 @@ alice.age = 30;
 frank.name = "Frank";
 frank.age = 25;
 frank.isAlive = true;
-*/
+
 
     Email e1 = new Email(alice, "Hello","world is my oyster","jdblack@g.cofc.edu", 0); //what is after the = is a Constructor
 /*e1.subject = "Hello";
@@ -21,16 +21,16 @@ e1.destination = "jdblack@g.cofc.edu";
 e1.author = alice;*/
 //now the above text is not necessary
 
-    Email e2 = new Email("My name", "What's up","jonnybl915@gmail.com");
+//    Email e2 = new Email("My name", "What's up","jonnybl915@gmail.com");
 /*e2.subject = "My name";
 e2.body = "What's up";
 e2.destination = "jonnybl915@gmail.com"; //default integer value is 0 when undefined
 e2.author = frank;*/
 //constructors allow for the cleaning of code and so we won't be able to forget to set anything
 
-    Email[] emails = new Email[10];
-emails[0] = e1;
-        emails[1] = e2;
+//    Email[] emails = new Email[10];
+//emails[0] = e1;
+//        emails[1] = e2;
 //CONSTRUCTORS -
 
 //e1.author.name
@@ -44,7 +44,7 @@ height += 1
 String name = alice.getName(); //should output "Alice" when we type name?
 // same as String name = alice.name; not necessarily better
 */
-        alice.setName("Bob Martin"); //returns nothing bc we have tried to return a void method
+/*        alice.setName("Bob Martin"); //returns nothing bc we have tried to return a void method
         alice.setAge(40);
         alice.getAge();
         alice.setIsAlive(false);
@@ -94,7 +94,7 @@ String name = alice.getName(); //should output "Alice" when we type name?
         this.name = setName;
     }*/
 
-        Coffee sumatra = new Coffee("Bold as Ice", "Brazil", false, 25);
+  /*      Coffee sumatra = new Coffee("Bold as Ice", "Brazil", false, 25);
         sumatra.countryOfOrigin
         sumatra.name
         sumatra.isTasty
@@ -122,8 +122,7 @@ String name = alice.getName(); //should output "Alice" when we type name?
 //beginning of day
 //Person.familySize = 0;
 //Person.p = new Person(); //error bc we're trying to change a 'FINAL' field
-
         System.out.println("Hello World!"); //built in static fields within the System class. System.out is the standard out for Java
 //this is not
         System.out.print("Hello World!");
-        System.out.print("Hello world!");
+      //System.out.print("Hello world!"*/

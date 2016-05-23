@@ -1,9 +1,24 @@
+import java.util.ArrayList;
+import java.util.HashMap;
+
 /**
  * Created by jonathandavidblack on 5/18/16.
  */
 public class HelloWorld {
-    public static void main(String[] args){ //has to be public, needs to be static to be global, recieving a string array
-        System.out.println("Hello World!");
-        System.out.println("Hello");
+    public static void main(String[] args) {
+        ArrayList<String> names = new ArrayList<>();
+        names.add("Alice");
+        names.add("Bob");
+        names.add("Charlie");
+
+        String name = names.get(0);
+
+        HashMap<String, Integer> scores = new HashMap<>();
+        scores.put("Alice", 10);
+        scores.put("Bob", 7);
+        scores.put("Charlie", 3);
+
+        int score = scores.get("Bob");
+
     }
 }

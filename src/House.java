@@ -34,7 +34,7 @@ public class House {
         this.streetName = streetName;
     }
     public void setIsSingleHouse(boolean isSingleHouse){
-        if (numberOfPorches > 1);
+        if (numberOfPorches < 2);
         this.isSingleHouse = isSingleHouse;
     }
     public boolean getIsSingleHouse(){
