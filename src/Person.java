@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 /**
  * Created by jonathandavidblack on 5/16/16.
  */
@@ -26,9 +28,9 @@ public class Person {
 
     }
     public void setName(String newName) {;
-        if (isValidName(newName)) {
+        //if (isValidName(newName)) {
             name = newName;
-        }
+       // }
      /* also could be:
     public void setName(String name){
     this.name = name;
@@ -51,7 +53,14 @@ public class Person {
         return newName.contains(" ");
     }
 
-    //Now getting into static methods!!
-
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", isAlive=" + isAlive +
+                ", family=" + Arrays.toString(family) +
+                '}';
+    }
 }
 
