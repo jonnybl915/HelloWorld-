@@ -40,4 +40,5 @@ public class ReadWriteJson {
         Person person3 = parser.parse(contents, Person.class);
         System.out.println(person3);
     }
+
 }
